@@ -15,8 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ch08\swaps.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    <ClInclude Include="ch10\stock00.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
