@@ -21,6 +21,10 @@
   <ItemGroup>
     <ClInclude Include="ch10\stock00.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ch10\stock00.cpp" />
+    <ClCompile Include="ch10\usestock00.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{C65CC397-4E76-4ADA-B6F8-7BD85003F6E6}</ProjectGuid>
