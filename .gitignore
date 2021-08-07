@@ -4,3 +4,6 @@ Debug/
 CPP/Debug/
 CPP/x64/Debug/
 .vs/
+CPP/CPP.vcxproj
+CPP/CPP.vcxproj.filters
+CPP/CPP.vcxproj.user
