@@ -8,11 +8,12 @@
 class Stock
 {
 public:
-    void acquire(const std::string & co, long n, double pr);
+    void acquire(const std::string &co, long n, double pr);
     void buy(long num, double price);
     void sell(long num, double price);
     void update(double price);
     void show();
+
 private:
     std::string company;
     long shares;
