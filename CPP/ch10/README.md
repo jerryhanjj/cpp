@@ -1,5 +1,3 @@
-## 第10章 对象和类
-
 ### 10.1 面向对象
 
 - 面向对象编程(OOP)
@@ -147,6 +145,28 @@ Stock temp{};       // 默认构造函数
 Stock(const std::string &co, long n = 0, double pr = 0.0);
 ```
 
+**只要类方法不修改调用对象，就应将其声明为 const ，const 对象只能调用 const 成员函数**
+```c
+void show() const;
+
+void Stock::show() const
+```
+
+#### 小结
+
+初始化新对象的几种方式：
+```c
+Bozo(const char *fname, const char *lname);
+
+Bozo bozetta = bozo("Bozetta","Biggenss");
+Bozo fufu("Fufu","dweeb");
+Bozo *pc = new Bozo("Popo","Le Peu");
+
+// 如果支持 C++ 特性，还可以列表初始化
+Bozo bozetta = {"Bozetta","Biggens"};
+Bozo fufu{"Fufu", "dweeb"};
+Bozo *pc = new Bozo{"Popo","Le Peu"}; 
+```
 
 ### 10.4 this 指针
 
