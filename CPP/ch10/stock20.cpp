@@ -60,7 +60,7 @@ void Stock::update(double price)
     set_tot();
 }
 
-void Stock::show()
+void Stock::show() const
 {
     std::cout << "Company: " << company
               << " Shares: " << shares << "\n"
