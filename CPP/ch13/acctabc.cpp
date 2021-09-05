@@ -122,4 +122,9 @@ void BrassPlus::Withdraw(double amt)
         Deposit(advance);
         AcctABC::Withdraw(amt);
     }
+    else
+    {
+        cout << "Credit limit exceeded. Transaction cancelled.\n";
+    }
+    Restore(f);
 }
