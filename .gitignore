@@ -7,3 +7,8 @@ CPP/x64/Debug/
 CPP/CPP.vcxproj
 CPP/CPP.vcxproj.filters
 CPP/CPP.vcxproj.user
+
+# 忽略vscode和osx文件
+*.dSYM
+output/
+._*
