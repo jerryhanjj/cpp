@@ -12,3 +12,5 @@ CPP/CPP.vcxproj.user
 *.dSYM
 output/
 ._*
+.idea
+.DS_*

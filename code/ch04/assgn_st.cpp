@@ -1,5 +1,5 @@
 // assgn_st.cpp -- assingning structures
-// program 4.12 page 91 �ṹ��ֵ
+// program 4.12 page 91 结构赋值
 
 #include <iostream>
 using namespace std;

@@ -1,8 +1,8 @@
 // instr1.cpp -- reading more than one string 
 // page 77
 /*
-Èç¹ûÔÚÊäÈënameÊ±ÊäÈë jerry han£¬ÓÉÓÚcinÏŞÖÆ
-nameÎªjerry£¬°Ñ han ²ĞÁôÔÚÊäÈëÁ÷ÖĞ£¬²¢ÔÚÏÂ´Î cin ¶ÁÈ¡Ê±´æµ½ dessert ÖĞ
+å¦‚æœåœ¨è¾“å…¥nameæ—¶è¾“å…¥ jerry hanï¼Œç”±äºciné™åˆ¶
+nameä¸ºjerryï¼ŒæŠŠ han æ®‹ç•™åœ¨è¾“å…¥æµä¸­ï¼Œå¹¶åœ¨ä¸‹æ¬¡ cin è¯»å–æ—¶å­˜åˆ° dessert ä¸­
 */
 #include <iostream>
 using namespace std;

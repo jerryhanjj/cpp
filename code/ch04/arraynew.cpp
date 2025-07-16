@@ -11,7 +11,7 @@ int main()
     cout << p << endl;
     cout << *p << endl;
 
-    p = p + 1;          // 指向下一个元素，与数组本质上不同的体现，在内存上p的值改变一个double的地址
+    p = p + 1;          // 鎸囧悜涓嬩竴涓厓绱狅紝涓庢暟缁勬湰璐ㄤ笂涓嶅悓鐨勪綋鐜帮紝鍦ㄥ唴瀛樹笂p鐨勫�兼敼鍙樹竴涓猟ouble鐨勫湴鍧�
     cout << *p << endl;
     cout << p << endl;
 
